@@ -1,1 +1,2 @@
-print("Hello from Nodop!")
+def call_cli():
+  print("Hello from Nodop!")
