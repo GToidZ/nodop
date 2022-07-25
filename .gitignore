@@ -1,0 +1,37 @@
+# .env
+.env
+.env.?
+
+# Virtual Environment Directory
+venv/
+.venv/
+.env/
+
+# Python compiled file extensions
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+vars/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE-specific
+.idea
+.vscode
+
+# Logs
+pip-log.txt
