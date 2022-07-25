@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nodop"
+version = "0.0.1"
+authors = [
+	{ name="GToidZ", email="amazichannel@gmail.com" },
+]
+description = "A Python code plagiarism validator"
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.7"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GToidZ/nodop"
+"Issues Tracker" = "https://github.com/GToidZ/nodop/issues"
+
+[project.scripts]
+nodop = "nodop:main"
