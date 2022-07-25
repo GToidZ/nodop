@@ -23,4 +23,4 @@ classifiers = [
 "Issues Tracker" = "https://github.com/GToidZ/nodop/issues"
 
 [project.scripts]
-nodop = "nodop:main"
+nodop = "nodop:call_cli"
