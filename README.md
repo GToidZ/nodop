@@ -1,5 +1,5 @@
 # Nodop (No Doppelganger)
-Nodop is a code plagiarism checker and validator written in Python that aims to be convenient, modular and extensible. The project when completed will be extended or merge to an upcoming suite of tools that instructors, teachers or TAs can use.
+Nodop is a **single-py-file** plagiarism checker and validator written in Python that aims to be convenient, modular and extensible. The project when completed will be extended or merge to an upcoming suite of tools that instructors, teachers or TAs can use.
 
 ## Principles of Nodop
 * Nodop aims to be convenient. Nodop will be usable on any operating systems. Nodop will have its own CLI along with its API can be exposed to create Python scripts for automation or any integrations.
@@ -7,8 +7,8 @@ Nodop is a code plagiarism checker and validator written in Python that aims to 
 * Nodop aims to be extensible. Nodop is built with Python and it is trying to be really documented. Nodop can be easily extended with custom Schemes that users can write their own if they know Python.
 
 ## Goals of Nodop
-- [ ] Base checker (String similarity)
-- [ ] Schemes (Nodop mixin classes to strengthen Nodop's checks)
+- [x] Base checker (String similarity)
+- [x] Schemes (Nodop mixin classes to strengthen Nodop's checks)
 - [ ] Check for specific lines range
 - [ ] Check for specific functions
 - [ ] Command line interface
